@@ -1,0 +1,231 @@
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style */
+
+body{
+	@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&display=swap');	
+	font-family: 'Inter', sans-serif;
+	font: 16px;
+	
+}
+
+.all-pages{
+	width: 1280px;
+	margin: auto;
+	/* border:2px solid blue; */
+}
+
+.logo{
+	float: left;
+}
+
+.logo img{
+	width: 50px;
+	margin-left: 25px;
+	margin-top: 25px;
+	box-sizing: border-box;
+}
+
+.nav-page{
+	padding-bottom: 25px;
+}
+
+nav li{
+	display: inline-block;
+	list-style: none;
+	margin-top: 50px;
+	float: right;
+	margin-bottom: 10px;
+}
+
+.clear1{
+	clear: both;
+}
+
+li .register{
+	background-color: blue;
+	color: white;
+	border: 2px solid blue;
+	border-radius: 10px;
+	margin-right: 18px;
+	padding: 14px 48px 14px;
+	box-sizing: border-box;
+	
+}
+
+li .login{
+	border: 2px solid blue;
+	border-radius: 10px;
+	padding: 25px;
+	box-sizing: border-box;
+	padding: 14px 48px 14px;
+	color: blue;
+	margin-right: 123px;
+	
+	
+}
+
+nav ul li a{
+	text-decoration: none;
+	padding: 10px 50px 10px 50px;
+	box-sizing: border-box;
+
+}
+
+/* nav ul li {
+	position: absolute;
+	left: 950px;
+} */
+
+/* nav ul li .login, .register{
+	cursor: ;
+
+} */
+
+.nav-page{
+	background-color: white;
+}
+
+.first-page{
+	position: relative;
+	bottom: 120px;
+}
+.jimbotron-text{
+	position: absolute;
+	top: 252px;
+	float: left;
+}
+
+.mask-group-img{
+	position: absolute;
+	left: 532px;
+	top: 160px;
+	float: right;
+}
+.head-text h1{
+	font-size: 48px;
+	line-height: 20px;
+	font-weight: 700px;
+	font-family: 'Inter', sans-serif;
+}
+
+.desc-text{
+	margin-top: -20px;
+	line-height: 25.5px;
+}
+
+
+.apply-button a{
+
+	border: 2px solid blue;
+	background-color: blue;
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 16px 64px 16px;
+	color: white;
+	text-decoration-line: none;
+	font-size: 20px;
+}
+
+.apply-button{
+	position: relative;
+	top: 100px;
+}
+
+.main-page{
+	background-color: rgb(62, 245, 255);
+}
+
+.second-page{
+	margin: auto;
+	position: absolute;
+	top: 836px;
+}
+
+
+.sarungTangan-img{
+	float: left;
+}
+
+.right-text{
+position: absolute;
+width: 490px;
+height: 508px;
+left: 640px;
+}
+
+.headline h1{
+	font-size: 50px;
+	line-height: 40px;
+	font-weight: 700;
+}
+
+.desc-text{
+	font-size: 18px;
+	line-height: 25.5px;
+}
+.icon{
+	position: relative;
+	right: 45px;
+	bottom: 5px;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
